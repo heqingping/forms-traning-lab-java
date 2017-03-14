@@ -1,0 +1,11 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: forms-traning-lab-java
+  host: forms-traning-lab-java
+  disk_quota: 1024M
+  services:
+  - ClearDB MySQL Database-3d
+  - availability-monitoring-auto
